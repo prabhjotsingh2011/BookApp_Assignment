@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/BookApp_Assignment/static/css/main.10299daf.chunk.css",
+    "main.js": "/BookApp_Assignment/static/js/main.732e94fa.chunk.js",
+    "main.js.map": "/BookApp_Assignment/static/js/main.732e94fa.chunk.js.map",
+    "runtime-main.js": "/BookApp_Assignment/static/js/runtime-main.4071e6fa.js",
+    "runtime-main.js.map": "/BookApp_Assignment/static/js/runtime-main.4071e6fa.js.map",
+    "static/css/2.9207024b.chunk.css": "/BookApp_Assignment/static/css/2.9207024b.chunk.css",
+    "static/js/2.caa2c344.chunk.js": "/BookApp_Assignment/static/js/2.caa2c344.chunk.js",
+    "static/js/2.caa2c344.chunk.js.map": "/BookApp_Assignment/static/js/2.caa2c344.chunk.js.map",
+    "index.html": "/BookApp_Assignment/index.html",
+    "static/css/2.9207024b.chunk.css.map": "/BookApp_Assignment/static/css/2.9207024b.chunk.css.map",
+    "static/css/main.10299daf.chunk.css.map": "/BookApp_Assignment/static/css/main.10299daf.chunk.css.map",
+    "static/js/2.caa2c344.chunk.js.LICENSE.txt": "/BookApp_Assignment/static/js/2.caa2c344.chunk.js.LICENSE.txt",
+    "static/js/main.732e94fa.chunk.js.LICENSE.txt": "/BookApp_Assignment/static/js/main.732e94fa.chunk.js.LICENSE.txt",
+    "static/media/angular.jpg": "/BookApp_Assignment/static/media/angular.b5045666.jpg",
+    "static/media/argon-react-white.png": "/BookApp_Assignment/static/media/argon-react-white.e4dd3b41.png",
+    "static/media/argon-react.png": "/BookApp_Assignment/static/media/argon-react.128d71d3.png",
+    "static/media/bootstrap.jpg": "/BookApp_Assignment/static/media/bootstrap.bd712487.jpg",
+    "static/media/all.min.css": "/BookApp_Assignment/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/github.svg": "/BookApp_Assignment/static/media/github.6c955556.svg",
+    "static/media/google.svg": "/BookApp_Assignment/static/media/google.eae9aa93.svg",
+    "static/media/nucleo.css": "/BookApp_Assignment/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/profile-cover.jpg": "/BookApp_Assignment/static/media/profile-cover.97899245.jpg",
+    "static/media/react.jpg": "/BookApp_Assignment/static/media/react.0e8c9066.jpg",
+    "static/media/sketch.jpg": "/BookApp_Assignment/static/media/sketch.a6af780a.jpg",
+    "static/media/team-1-800x800.jpg": "/BookApp_Assignment/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.jpg": "/BookApp_Assignment/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-3-800x800.jpg": "/BookApp_Assignment/static/media/team-3-800x800.70911cdd.jpg",
+    "static/media/team-4-800x800.jpg": "/BookApp_Assignment/static/media/team-4-800x800.99c612eb.jpg",
+    "static/media/vue.jpg": "/BookApp_Assignment/static/media/vue.43bd93a8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4071e6fa.js",
+    "static/css/2.9207024b.chunk.css",
+    "static/js/2.caa2c344.chunk.js",
+    "static/css/main.10299daf.chunk.css",
+    "static/js/main.732e94fa.chunk.js"
+  ]
+}
