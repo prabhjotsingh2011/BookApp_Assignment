@@ -42,24 +42,16 @@ import { useEffect, useState } from "react";
 
 const Tables = () => {
 
+const [Apidata, setApiData] = useState();
+  
+    const GetData = async () => {
 
-  // axios({
-  //   url: 'https://run.mocky.io/v3/8260aa5d-8af8-4cff-999e-6e81b217f0ba',
-  //   method: 'get'
-  // })
-
-  const [Apidata, useApiData] = useState([]);
-
-  const GetData = async () => {
-    const { data } = await axios.get('https://run.mocky.io/v3/8260aa5d-8af8-4cff-999e-6e81b217f0ba')
-    useApiData(data);
-    console.log(Apidata.clients[0].name);
-  }
-  useEffect(() => {
+      if(!Apidata){
+        const  {data}  = await axios.get('https://run.mocky.io/v3/8260aa5d-8af8-4cff-999e-6e81b217f0ba')
+        setApiData(data);
+      }
+    }
     GetData()
-
-  }, [])
-
 
 
 
@@ -109,14 +101,14 @@ const Tables = () => {
                             </a>
                             <Media>
                             <span className="mb-0 text-sm">
-                              {Apidata.clients[0].name}
+                              {Apidata?.clients[0]?.name}
                               
                               
                             </span>
                             </Media>
                           </Media>
                         </th>
-                        <td>{Apidata.clients[0].company}</td>
+                        <td>{Apidata?.clients[0]?.company}</td>
                         <td>
                           <Badge color="" className="badge-dot mr-4">
                             <i className="bg-warning" />
@@ -278,12 +270,12 @@ const Tables = () => {
                         </a>
                         <Media>
                           <span className="mb-0 text-sm">
-                          {Apidata.clients[1].name}
+                          {Apidata?.clients[1]?.name}
                           </span>
                         </Media>
                       </Media>
                     </th>
-                    <td>{Apidata.clients[1].company}</td>
+                    <td>{Apidata?.clients[1]?.company}</td>
                     <td>
                       <Badge color="" className="badge-dot">
                         <i className="bg-success" />
@@ -442,11 +434,11 @@ const Tables = () => {
                           />
                         </a>
                         <Media>
-                          <span className="mb-0 text-sm">{Apidata.clients[2].name}</span>
+                          <span className="mb-0 text-sm">{Apidata?.clients[2]?.name}</span>
                         </Media>
                       </Media>
                     </th>
-                    <td>{Apidata.clients[2].company}</td>
+                    <td>{Apidata?.clients[2]?.company}</td>
                     <td>
                       <Badge color="" className="badge-dot mr-4">
                         <i className="bg-danger" />
